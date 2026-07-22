@@ -1,0 +1,32 @@
+
+
+
+
+                    This file contains GK about exercise 4.1
+
+1.
+Quc. : How to printout in display with quotation mark 
+
+ 1.1 you can do this with just print function where just write an normal string and the words you write inside print function with quotation mark just warp up with another different quotation mark (i.e. if you make a string with { " } double quotation mark then use { ' } single quotation mark before the past quotation mark and same for the after string end after warp up with normal string with { " } double quotation mark use a { ' } single quotation mark {i.e. print("string') to print('"string"')}
+ 1.2 remember anything you warp up with ( ' ) single quotation ( " ) double quotation mark with print string that refers a simple string and python print function just print that
+ 1.3 if you want to printout in display with ( " ) double quotes then frist write that noemal string with ( ' ) single quotation and warp up again with ( " ) double quotation mark before the ( ' ) and after the ( ' ) single quotation marks and for printout in display with ( ' ) single then just swap the quotation mark position 
+ 
+2.
+Quc. : how to print with apostrophe
+
+ 2.1 just same as 1 just instead ( " ) use ( ' ) and everything strays the same
+
+3.
+Quc. Print a string that prints in multiple lines with white space preserved ( just as it code print)
+
+ 3.1 just use ( """ ) or ( ''' ) triple quotation marks instead of ( " ) or ( ' ) quotation mark before and after strings value to warp up
+ 3.2 and rest of things strays same
+
+4.
+Quc. :  How to print a string value in display in one line but written in multiline in code
+
+ 4.1 just use a ( \ ) backslash at end of every line
+ 4.2 and everything strays same
+
+
+Note : please read codes for more better understand

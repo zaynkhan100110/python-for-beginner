@@ -1,0 +1,98 @@
+
+
+
+              This file contain exercise 4.3 questions answer or explanation
+
+
+1.
+Quc : check and replace the value of strings lowercase, uppercase, titlecase, swapcase, capitalize
+
+ 1.1.1 just create a variable with strings and add values within it (type any case we gonna make that to lower case) or you can just use words with lower funtion ( this will only in python shell witch you don't use variable)
+ 1.1.2 then after the value of string ends add lower funtion (i.e. "value of string".lower() ) this takes the value and change it to lower case after you give this input to the python
+ 1.1.3 after you create a variable with value in it on the print funtion use that variable with lower funtion ( i.e. print (variable.lower()) )
+ 1.1.4 after define string/s with value to the variable (we can tell variable 1 for simple understand) then on the next line create a new variable (variable 2) and assign the past variable (variable 1) with lower funtion ( i.e. variable1 = variable2.lower() )  
+ 1.1.5 you can do multiple words in a single variable then assign them to the new variable with lower funtion and just print ( you can even use single quotes ('') for a word and ("") double quotes for another word but don't use single/double quotes at start of word and single/double quotes end of the word ('"/'") since python is case sensetive using quotes complex will call an syntax error at the result)
+ 1.1.6 you can print multiline at once with (''' or """) triple single or triple double quotes (don't use complex quotes) this will print with blank space/s
+ and after all just print.
+
+1.2 just replace lower funtion with upper funtion ( i.e. .lower() to .upper() ) and everything left same that will print in uppercase print
+1.3 
+text = "Hello World"
+print(text.upper())      # HELLO WORLD
+print(text.lower())      # hello world
+print(text.title())      # Hello World
+print(text.swapcase())   # hELLO wORLD
+print(text.capitalize()) # Hello world
+
+print("HELLO".isupper()) # True
+print("hello".islower()) # True   
+
+For checking case, Python also offers:
+
+.isupper(): Returns True if all cased characters are uppercase. 
+.islower(): Returns True if all cased characters are lowercase. 
+.istitle(): Returns True if the string is in title case. 
+These methods return new strings and do not modify the original string in place.  For case-insensitive comparisons, .casefold() is often recommended over .lower() as it is more aggressive and handles more Unicode characters correctly. 
+
+2.
+Quc : remove white spaces
+
+ Note : for remove white space from left side = .lstrip(), for right side = .rstrip(), for both side = .strip()   
+
+ 2.1.1 First assign string with value to a variable with white space infront/after/bothside of strings value
+ 2.1.2 then use the variable with .lstrip() function for remove white space from left side ( i.e. variable.lstrip.() )
+ 2.1.3 you can assign that variable to a new variable with removeing the  white spaces (i.e. new_variable = past_variable.rstrip() ) and just print ( this will remove white space from right side)
+ 2.1.4 assign string to a variable with value add ( '' ) quotes for print with quotes (i.e. variable = " 'value'  ') then make a new variable ans assign the past variable with white space remove (i.e. new_variable = past_variable.strip() ) this will remove white space from both side and then just print
+
+3.
+Quc : check spelling with startswith/endswith function
+
+ Note : to check spell from front of word = .startswith(), back of the word = .endswith()
+
+ 3.1.1 type a string addwith quotes and use startswith functions with value to print (i.e. "string".startswith("value_to_look_on_string") ) this will look on the string and search for match from front side of the string by the value you put in the function) 
+ 3.1.2 you can assign string with value on a variable then use that variable with ednswith function (i.e. variable.endswith("value_need_to_look)  this will search for match on string assign to the vaariable from back side of the word
+ 3.1.3 or after assigning a variable with string with value you can use print function and variable with startswith function (i.e. print (variable.startswith('value_need_to_look')) this will look for match from string assigning to the variable using the value need o look you put in function) (don't forget parentheses this is frustration) (this time it will print the value of result both on normal screen or python shell)
+
+
+
+ Note : both 3.1.1 and 3.1.3 cannot be able to print anything on normal terminal you may need python shell. all prints would be flalse (if python functio cannot find match) or true (if python function found a match) ( no others value will be print )
+
+4. 
+Quc : Replace the words and make every each true (from quc 3)
+  
+ Note : just use slice with 3.
+
+ 4.1.1 just as same as 3 just slice from front and back of value from string and add yours
+
+ Note : for more better understand you should see our (spell_check_then_correct_all_spell.py) file (explanation inside it)
+
+         -------startswith---------------
+      _____________________________________
+      | B | e | c | o | m | e | s |
+      0   1   2   3   4   5   6   7
+      ______________________________________
+
+
+
+      _______________________________________
+       | B | e | c | o | m | e | s |
+      -7  -6  -5  -4  -3  -2  -1
+      _______________________________________
+
+
+
+          -------endswith---------------
+      _____________________________________
+       | B | e | c | o | m | e | s |
+       7   6   5   4   3   2   1   0 
+      ______________________________________
+
+
+
+      _______________________________________
+       | B | e | c | o | m | e | s |
+      -7  -6  -5  -4  -3  -2  -1
+      _______________________________________
+
+
+            For reference you can read our ex-4.3 folder files

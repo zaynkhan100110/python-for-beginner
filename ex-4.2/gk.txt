@@ -1,0 +1,29 @@
+
+
+
+    # This file contains General Questions i found !!!
+
+
+1. So i want print with quotes (i.e. i was said "Don't panic python is easy" )
+Ans. Here you can use ( \ ) back slash before the word you want to print quotes and after word ends use the same quotes and then ( \ ).
+     Another method is if you want to print double quotes on screen the start with ( ' ) single quotes before first word and the word you want to get print use ( " ) double quotes before that word start and after the desire word complete use ( " ) double quotes and after the very last word of the sentence use ( ' ) single quotes again to close the string.
+       If you want to print quotes then just exchange ( ' ) single quotes with ( " ) double quotes.
+ Note : You can get an example from our ( quotes-1.py ) file.
+
+
+2. I want to print a whole paragraph in normal style. How can i do that ?
+Ans. Just add an \ after a line ends and go on ( this style helps if you simply prints without preserving white spaces ).
+     Another method is before your paragraph start use ( """/''' ) triple quotes at onece and same ( """/''' ) triple quotes in after last word ( this will preserve white spaces mean this will print as it code ).
+ Note : You take reference from our ( paragraph-1.py ) file
+
+
+3. How to print lengh of a string ?
+Ans. just use python ( len() ) funtion
+ Note : this cannot be perform on normal terminal you may need python shell. For lessons you can view our ( len-1.py ) file.
+
+
+4. I want to replace a word from a sentence without edit previous (i.e. admin will be see they have proper direction but after print out will be my words).
+Ans. You can use sting slicing again here but with little tricky (i.e. first define a string on a variable {we can call it past variable/string} and then that same variable {or a new variable if you want to change the variable also} and define new string on this variable {new variable} and use { + } sign to add then the past variable {which variables need to change} and last use { [] } box brackets with the length the amount of number that you want to replace { you cannot just use plus number i.e. 2,4,5,6, but you can also use minus number i.e. -2,-4,-6,-9 } 
+ Note : for more better understand i encorege to read our ( replace_words.py ) file
+
+

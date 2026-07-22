@@ -1,0 +1,26 @@
+
+
+
+                            This file contains GK based on xercise 3.3
+
+
+   Note : when syntax error occuers that time program never runs it throw an error without get executed
+   Note : when the name error/Traceback/runtime error that time program get executed but crash after an error
+1.
+Quc. : What is a syntax error
+
+ 1.1 syntax error occuers when you open a perenthes ( () ), or ( '' ) and forget to close.
+ 1.2 syntax error looks like this
+    print ('wow)
+           ^
+SyntaxError: unterminated string literal (detected at line 8)
+
+
+2.
+Quc. : What is a runtime error
+
+ 2.1 runtime error occuers when you going to executed without define variable or python can't find any reliable scouce to execute your program
+ 2.2 runtime error look like this
+            print (wow)
+           ^^^
+NameError: name 'wow' is not defined. Did you mean: 'pow'? 

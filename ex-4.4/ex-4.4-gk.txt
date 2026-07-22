@@ -1,0 +1,26 @@
+
+
+
+
+                             This file contain the GK quc based on exercise 4.4
+
+
+
+
+1.
+Quc. How to use input fuction
+ 1.1 all the explanation are can be found on user_input.py file
+ 1.2 in python input function (i.e. input() ) is just takes input from user nothing more.
+ 1.3 we can assign that input to a variable and using that variable we can treat that input as we do for a normal string (i.e. slicing, adding, make case and more)
+
+
+
+2.
+Quc. How to take user input and print that user input value to lower case
+ 2.1.1 make a variable to take and save user input
+ 2.1.2 print that variable ( contain user input ) with ( .lower() ) lower function to print everything in input as lower case
+ 2.2.1 or make a variable first to show/give a hint to the user to what should user type or give input
+ 2.2.2 then make a variable to save user input in it and assign value user input and inside input function add the last variable what we make to guide user what to type
+ 2.2.3 then usin print function to print you can add strings to show user what ever you want (just like a normal string) and using ( + ) add the user input variable and added lower function to print everything in lower case
+ 2.3.1 or after taking the user input add another variable to customize user input as you like (after added user input inside a variable you can treat that user input value like a normal string thanks to the variable)
+ 2.3.2 and then use the print to print ( i.e. 2.2.3 but don't forget you have now another string to holding user input value

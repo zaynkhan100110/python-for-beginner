@@ -1,0 +1,25 @@
+
+
+
+
+                            This file contains GK based on exercise 3.4
+
+
+
+1. 
+Quc. : Using interactive window display some text using print function ( print() )
+
+ 1.1 print function ( print() ) is build in python his work is just print
+ 1.2 this works same in both interactive window/python shell and normal terminal
+
+2.
+Quc. : Assign a string to a variable and print that variable
+
+ 2.1 a variable called which is get assign (saves the value of strings inside him) strings value (right side with "" called string) 
+ 2.2 you can't change a variable once you create but you can create a new variable and assign the past variable in this way your past variable strays the same but new variable holds the same string value in him
+ 2.3 this also works same in both interactive window/python shell and normal terminal
+
+3.
+Quc. Repeat those two exercise at on editor window
+
+ 3.1 use 1,2 for write 3 (things are the same)
